@@ -1,0 +1,30 @@
+{
+    "name": "damienflament/combinatorial-provider",
+    "description": "Generate combinations to provide data to unit tests.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damien Flament",
+            "email": "damien.flament@gmx.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.6|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "CombinatorialProvider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CombinatorialProvider\\Tests\\": "tests/"
+        }
+    }
+
+}
